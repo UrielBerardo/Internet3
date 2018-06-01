@@ -1,0 +1,11 @@
+h1{
+    color: red;
+};
+
+.active{
+    color: blue;
+};
+
+.disabled{
+    color: green;
+};
