@@ -1,0 +1,191 @@
+/* TIPOGRAFÍA */
+
+* { font-size: 12pt;
+    font-family: gungsuh;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+.navbar { background-color: #1a1a1a;
+
+}
+
+/* CUERPO */
+
+body { background-color: rgb(68, 68, 68);
+       width: 100%;
+       height: 100%;
+}
+
+/* IMAGENES Y TEXTO*/
+
+#section { width: 75%;
+           padding-top: 75px;
+           margin-left: 12.5%; 
+           margin-top: 15px;
+           margin-bottom: 30px;
+           vertical-align: middle;
+}
+
+.contenedores{ width: 100%;
+               background: #1a1a1a;  
+}
+
+.contenedores img { width: 100%;
+}
+
+.imagenDescription{ z-index: 0;
+}
+.imagenDescription img{ z-index: 1;
+}
+.imagenDescription:hover img{ filter: blur(4px);
+}
+
+.imagenDescription:hover .previewDesc{ opacity: 1;
+}
+
+.imagenDescription { padding: 1.2px;
+                     margin: 0px;
+                     height: 100%;
+                     width: 100%;
+                     align-content: center;
+}
+
+#descripcion { width: 100%;
+               height: 0%;
+               margin: 30px;
+
+
+}
+
+.textDesc { width: 337px;
+            margin-left: 880px;
+            padding: 0px;
+            color: white;
+}
+
+.titulo { height: 50px;
+          padding-left: 40px;
+          color: white;
+
+}
+
+/* FORMULARIO DE CONTACTO */
+
+.contactoForm { background-color: #1a1a1a;
+                width: 25%;
+                margin-left: 37%;
+                grid-column: 2;
+                display: grid;
+                grid-template-columns: 1fr;
+}
+
+form h1 { text-align: center;
+          font-size: 20pt;
+          margin-top: 12.5px;
+          color: white;
+}
+
+.form-input { background: #112;
+              width: 90%;
+              padding: 15px 0;
+              padding-left: 20px;
+              border: 2px solid rgb(211, 143, 53);
+              border-radius: 10px; 
+              color: white;
+              margin: 0 auto;
+              margin-bottom: 30px
+}
+
+label { color: rgb(211, 143, 53)f;
+        margin-left: 15px;
+        color: white;
+}
+
+.form-submit { background-color: rgb(211, 143, 53);
+               border: none;
+               border-radius: 5px;
+               padding: 5px 10px;
+               margin: 0 auto 20px;
+               width: 90%;
+               transition: linear .5s;
+}
+
+.form-label { color: white;
+              padding-right: 0px;
+              padding-left: 30px;
+}
+
+.form-submit:hover { background: rgb(255, 190, 104);
+}
+
+.form-submit:focus { background: rgb(255, 190, 104);
+}
+
+.form-file { color: rgb(211, 143, 53);
+             margin-bottom: 13px;
+}
+
+/* FOOTER/PIE DE PÁGINA */
+
+.pie-de-pagina { border-top: solid 1px rgb(211, 143, 53);
+                 border-bottom: solid 1px rgb(211, 143, 53); 
+                 width: 95%;
+                 margin-top: 100px;
+                 margin-bottom: 15px;
+                 margin-left: 2.5%;  
+}
+
+.footer-texto { margin: 0px;
+                padding: 10px 0px;
+                width: 375px;
+                color: white;
+}
+
+.redes-sociales { background: rgb(36, 37, 57);
+                  width: 185px;
+                  border-radius: 3px;
+                  margin-left: 575px; 
+                  float: right;          
+}
+
+.redes { width: 40px;
+         height: 40px;
+}
+
+.facebook { float: left;
+            margin-left: 5px;
+            margin-right: 2.5px;
+}
+
+.instagram { float: left;
+             margin-left: 2.5px;
+             margin-right: 2.5px;
+}
+
+.twitter { float: left;
+           margin-left: 2.5px;
+           margin-right: 2.5px;
+}
+
+.youtube { float: left;
+           margin-left: 2.5px;
+           margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
